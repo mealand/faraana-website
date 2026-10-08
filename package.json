@@ -1,0 +1,15 @@
+{
+  "name": "faraananagaji.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal profile website of Fara’a Nana Gaji: humanitarian, psychologist, mentor and entrepreneur.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs",
+    "media": "python scripts/process-media.py --src ../media"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

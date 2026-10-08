@@ -1,0 +1,216 @@
+/* ==========================================================================
+   Motion system
+   Everything is progressive: elements are only hidden once JS has run
+   (html.js) and motion is skipped entirely for prefers-reduced-motion.
+   ========================================================================== */
+@keyframes marquee {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(31, 138, 109, 0.55); }
+  70% { box-shadow: 0 0 0 12px rgba(31, 138, 109, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(31, 138, 109, 0); }
+}
+
+@keyframes pulse-gold {
+  0% { box-shadow: 0 0 0 0 rgba(201, 151, 63, 0.55); }
+  70% { box-shadow: 0 0 0 26px rgba(201, 151, 63, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(201, 151, 63, 0); }
+}
+
+@keyframes draw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes fade-in {
+  to { opacity: 1; }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes scroll-hint {
+  0% { transform: scaleY(0); transform-origin: top; }
+  45% { transform: scaleY(1); transform-origin: top; }
+  55% { transform: scaleY(1); transform-origin: bottom; }
+  100% { transform: scaleY(0); transform-origin: bottom; }
+}
+
+@keyframes ken-burns {
+  from { transform: scale(1.12) translate3d(0, 0, 0); }
+  to { transform: scale(1) translate3d(0, 0, 0); }
+}
+
+@keyframes lightbox-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%; }
+  50% { border-radius: 58% 42% 38% 62% / 55% 61% 39% 45%; }
+}
+
+/* ---------- scroll reveal ---------- */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+  transition: opacity 1s var(--ease-out), transform 1s var(--ease-out);
+  transition-delay: var(--delay, 0s);
+}
+
+.js [data-reveal='left'] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+.js [data-reveal='right'] {
+  transform: translate3d(50px, 0, 0);
+}
+
+.js [data-reveal='scale'] {
+  transform: scale(0.92);
+}
+
+.js [data-reveal='fade'] {
+  transform: none;
+}
+
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* image unveil: a clip-path wipe plus a settle-in zoom.
+   The clip lives on the children: IntersectionObserver ignores fully clipped targets. */
+.js [data-reveal='clip'] {
+  opacity: 1;
+  transform: none;
+}
+
+.js [data-reveal='clip']:not(.is-visible) {
+  background: transparent;
+  box-shadow: none;
+}
+
+.js [data-reveal='clip'] > :is(picture, video, img, .frame) {
+  clip-path: inset(100% 0 0 0);
+  transition: clip-path 1.3s var(--ease-in-out);
+  transition-delay: var(--delay, 0s);
+}
+
+.js [data-reveal='clip'] img,
+.js [data-reveal='clip'] video {
+  transform: scale(1.25);
+  transition: transform 1.6s var(--ease-out);
+  transition-delay: var(--delay, 0s);
+}
+
+.js [data-reveal='clip'].is-visible > :is(picture, video, img, .frame) {
+  clip-path: inset(0 0 0 0);
+}
+
+.js [data-reveal='clip'].is-visible img,
+.js [data-reveal='clip'].is-visible video {
+  transform: none;
+}
+
+/* staggered children */
+.js [data-stagger] > * {
+  opacity: 0;
+  transform: translate3d(0, 34px, 0);
+  transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out);
+}
+
+.js [data-stagger].is-visible > * {
+  opacity: 1;
+  transform: none;
+}
+
+.js [data-stagger].is-visible > :nth-child(1) { transition-delay: 0.05s; }
+.js [data-stagger].is-visible > :nth-child(2) { transition-delay: 0.13s; }
+.js [data-stagger].is-visible > :nth-child(3) { transition-delay: 0.21s; }
+.js [data-stagger].is-visible > :nth-child(4) { transition-delay: 0.29s; }
+.js [data-stagger].is-visible > :nth-child(5) { transition-delay: 0.37s; }
+.js [data-stagger].is-visible > :nth-child(6) { transition-delay: 0.45s; }
+.js [data-stagger].is-visible > :nth-child(7) { transition-delay: 0.53s; }
+.js [data-stagger].is-visible > :nth-child(8) { transition-delay: 0.61s; }
+.js [data-stagger].is-visible > :nth-child(n + 9) { transition-delay: 0.69s; }
+
+/* split headings: each word rises out of a mask; hidden until split to avoid a flash */
+.js [data-split]:not(.is-split) {
+  opacity: 0;
+}
+
+.split-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+
+.split-word > span {
+  display: inline-block;
+  transform: translate3d(0, 105%, 0) rotate(4deg);
+  transform-origin: left bottom;
+  transition: transform 1.1s var(--ease-out);
+  transition-delay: calc(var(--i) * 0.055s + var(--delay, 0s));
+}
+
+.is-visible .split-word > span,
+.split-word.is-visible > span {
+  transform: none;
+}
+
+/* parallax targets are moved by JS via --py */
+[data-parallax] {
+  will-change: transform;
+}
+
+.js [data-parallax] {
+  transform: translate3d(0, var(--py, 0px), 0);
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float--delay {
+  animation-delay: -3s;
+}
+
+.ken-burns img {
+  animation: ken-burns 14s var(--ease-out) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .js [data-stagger] > *,
+  .split-word > span {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+
+  .js [data-reveal] img {
+    transform: none !important;
+  }
+
+  .marquee__track {
+    animation: none;
+  }
+}

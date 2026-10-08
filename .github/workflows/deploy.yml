@@ -1,0 +1,75 @@
+# Builds the site on every push to main and deploys it.
+#
+# Two independent targets; switch each on with a repository *variable*
+# (GitHub → Settings → Secrets and variables → Actions → Variables):
+#
+#   DEPLOY_FTP   = true   → uploads dist/ to your web host (cPanel, Hostinger, Namecheap…)
+#                           needs secrets FTP_SERVER, FTP_USERNAME, FTP_PASSWORD
+#                           optional variable FTP_SERVER_DIR (default: public_html/)
+#   DEPLOY_PAGES = true   → publishes to GitHub Pages (Settings → Pages → Source: GitHub Actions)
+
+name: Build & deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build static site
+        run: node scripts/build.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: dist
+          include-hidden-files: true
+      - uses: actions/upload-pages-artifact@v3
+        if: vars.DEPLOY_PAGES == 'true'
+        with:
+          path: dist
+
+  ftp:
+    needs: build
+    if: vars.DEPLOY_FTP == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: dist
+      - name: Upload to web host
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./dist/
+          server-dir: ${{ vars.FTP_SERVER_DIR || 'public_html/' }}
+
+  pages:
+    needs: build
+    if: vars.DEPLOY_PAGES == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

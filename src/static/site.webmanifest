@@ -1,0 +1,13 @@
+{
+  "name": "Fara’a Nana Gaji",
+  "short_name": "Fara’a",
+  "description": "Humanitarian, psychologist, mentor and entrepreneur.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f8f3ea",
+  "theme_color": "#0a3d32",
+  "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

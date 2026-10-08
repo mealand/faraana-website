@@ -1,0 +1,15 @@
+# build output (CI rebuilds it on every push)
+dist/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+node_modules/
+__pycache__/
+
+# local tooling
+.claude/

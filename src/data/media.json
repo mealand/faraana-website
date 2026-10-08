@@ -1,0 +1,511 @@
+{
+  "images": {
+    "portraits/studio-caramel": {
+      "width": 1228,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1228
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACQBACdASoTABgAPu1qrFEppaQiqAqpMB2JZgC+aSABf1wc0hAZVD6HUaMXpcAA/up7XObTeIOzweBRcoUxZOJ9Vy76uNU12XM993YO4QW03FPTe7SNayNokEu5XyYf9/2rHKkyOaa3yOpOax+jgY+2+WQq4XxAOsyBiJ39fvysyqvZUCAOo1RW5WGTwG4fdDPz/ZIguFd0MvY2gAA=",
+      "source": "1789832451030.jpg"
+    },
+    "portraits/studio-caramel-confident": {
+      "width": 607,
+      "height": 1080,
+      "widths": [
+        480,
+        607
+      ],
+      "fallback": 607,
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABwBACdASoNABgAPu1iqk2ppaQiMAgBMB2JagC7MoR4GCkT/8QOO1xhoDj6gAD+6oLmEuYcX012vI2mxPdDVrWmY/bqSSMBDpLfHg3jEY8zqfTDZa7TNLJv7fL49WcR4GfMTwBxz1nRdLObVnPcGBieqfsbOqEryG3Yc50jBAr+kqZZqXzDs2/CCL4n4ZsJWH1CK6z9lpzWEw4AAAA=",
+      "source": "n1.jpeg"
+    },
+    "portraits/studio-royal-blue": {
+      "width": 1228,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1228
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABwBACdASoTABgAPu1qr1AppaSiqAqpMB2JbACdMtCGUA7snu26bYBnXx3UwAD+40WEk32rDfae5TUUc+IJ2gpqFBnA+RCT/CkbCntUGk1Gzbin1uvZUx2csUJ9OClnRO2V9UpHT0phvPefb3KkfAgyjC3Td10O8twbyRau/4QnxtsHwQsPkkvkAAA=",
+      "source": "1789330425714.jpg"
+    },
+    "portraits/office-ankara-elegance": {
+      "width": 800,
+      "height": 1425,
+      "widths": [
+        480,
+        800
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBACdASoNABgAPu1kqU2ppaQiMAgBMB2JZACdMoADTQXKsXjNhIMWt/+oAP6UDMV5YEXNCLQSm+InGRTsV1vrxUAZrtlZRDciFOPhxN3dllVVfAvVEHQ7w7KF58ibXI62v9tLGATSW7oZDdllMjwEHYGgBD/EoXny+S5yITCEAAAA",
+      "source": "1747206405742.jpg"
+    },
+    "portraits/library-poise": {
+      "width": 800,
+      "height": 1067,
+      "widths": [
+        480,
+        800
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRvoAAABXRUJQVlA4IO4AAACwBQCdASoSABgAPu1qrFEppaQiqAqpMB2JYgC7MwnlygsUgiJ2MtCrnn8dlg4JSdgYVx2T1QAA/GfnRe2sqs6d8XOhkCsQzmXcBpj154TvsU7D5/1ZbbJqSNDQQhKk5lgKgRrbtsdxn5cAslD9/vo/BLhQ0t448/r7S0pEPUELnAjVGHYnrZ5GjV9SNGvSnsPQxpu2QNNr5Cwm5iD7UmqYXAVK6ch316Y31kNhJuhIweX8q+t41BNV/Jm/fwIZaUb1spf8Z6jVudl4+3tFZsqy9lDknNIF0lC1LA5nQSe7Mq2WtAmY1t5bU+zMAAAA",
+      "source": "1785078910332.jpg"
+    },
+    "portraits/garden-ankara": {
+      "width": 800,
+      "height": 1066,
+      "widths": [
+        480,
+        800
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAADQBQCdASoSABgAPu1qqlEppaOiqAqpMB2JagCdMyS/2CNmvah2FtsUH2gR3Lb0OEG3TWnyoOuAAPgl9fm6qKyqaGVlHEh900AFkm9/Qk/0D3gW22FBNKzu5wOHRv8OoZ1gi27VXc75koPgYrDjOex3Vbvr+pwF27iAKAsJvw+H3K2nvAr3sV10W02R2WjxIPpien/8OFW7+jryDFYgcvhCWdGBlsVyKvfHvQYPDbDJhhTktJqy3XHAtOHUAAAA",
+      "source": "1785102895781.jpg"
+    },
+    "portraits/at-work-candid": {
+      "width": 480,
+      "height": 853,
+      "widths": [
+        480
+      ],
+      "fallback": 480,
+      "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBACdASoOABgAPu1iqk2ppaQiMAgBMB2JZACdAB4bas+ACVWy43/CCxXqaQAA/sPyVO3cHkDmzbY4Rq9tmKX/8DUBy4moJkMn4AqK+jhU0IxuK+UhI6jMKGIzCVRUzt6D+eQacwv1k4XS73E7hZFd2uJWXvhTS6Vd3bjQEW+YA93sYbRxQIPSHhy/k4zUf3lUPLayOvkgAA==",
+      "source": "1786999871829.jpg"
+    },
+    "portraits/headwrap-candid": {
+      "width": 1242,
+      "height": 2208,
+      "widths": [
+        480,
+        960,
+        1242
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQBACdASoNABgAPu1kqU4ppaOiMAgBMB2JQBOmUABqYqfznBjNC5aNHC2AAP7DXJqcdo34C5xIwETlXqMP03V7e2mmSraCR9ORQdJzcsNvm2dbOHRevcfEpc67lMPmsVS8T92/x39O07UXo6PLlXWT0S/m7WqesWSJ23TGE+6rM5aCIwEagsfV9nKAAA==",
+      "source": "1789331092531.jpg"
+    },
+    "portraits/red-gele": {
+      "width": 1152,
+      "height": 2048,
+      "widths": [
+        480,
+        960,
+        1152
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAADQAwCdASoNABgAPu1iqU2ppaOiMAgBMB2JbACdABwzCR72FVugcngA9rCj4H5JPJSlZPfFeVtckYcxwwr5tKiDtn9eMNDHT+A0nZSI9l4CX3DHeXh9/x0IqBjygr92ZmwR+/u7pI7/N2e+fVg0PHMVUdETUc6BbcKb8m98v9zyHMrv5AAAAA==",
+      "source": "729684418_36440101342271521_2613128438169034111_n.jpg"
+    },
+    "portraits/casual-plaid": {
+      "width": 498,
+      "height": 1024,
+      "widths": [
+        480,
+        498
+      ],
+      "fallback": 498,
+      "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADwAwCdASoMABgAPu1kqU2ppaQiMAgBMB2JQBibAeUdy+DvrUSo7xQAAPHgrm9IY0crKomjr427wOq+8AvzVxAsYEMgdMj3ZbTYS4GgxBbz/WrCN3jkQyiYj68HN5W1CUK8tvc7V7SUKXD1cTgAAA==",
+      "source": "nana1.jpeg"
+    },
+    "portraits/garden-wall": {
+      "width": 498,
+      "height": 724,
+      "widths": [
+        480,
+        498
+      ],
+      "fallback": 498,
+      "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAADQBACdASoRABgAPu1qrVCppaQiqAqpMB2JZgBV/QQKILNZgfHEuNjG9J83RjEsyAD8jR4XRuyQJ/jQ3zus7ZVWD09BpnyOWkZARxGY2Bw4/qScKZbIJVZJJgStIcgQSosxgqWTXm/D0utvOX3Vytz29YPjpF2vCbS1m9nVFKPCpompIxJShoqdP0wG6PxNSkSpNeYzDYn5Odpxji8snNKFGr5XYp68s7AL0kdzbxcLpwGXhjBMApjVnVAAAA==",
+      "source": "nana2.jpeg"
+    },
+    "portraits/glam-headwrap": {
+      "width": 720,
+      "height": 1280,
+      "widths": [
+        480,
+        720
+      ],
+      "fallback": 720,
+      "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoNABgAPu1iqk2ppaQiMAgBMB2JbACdMoADVN4ijm8wVLm0AAD+S2KcP5a/66z4iyRt+KL9mVuGOvDZRvuP2ku+3lTnLcuBfNQucxvB3zFE/qMJfELHoHtqvsr90OCpWyF3tXC6ACBgErsqclArzwNUPHFMOlsXU3EdiSxvk2ZFk3lUEvRqpPgA",
+      "source": "nana3.jpeg"
+    },
+    "portraits/street-style": {
+      "width": 1152,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1152
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAwBQCdASoSABgAPu1oqVAppiOiqA1RMB2JZQDImBGRBfYywUy+G54YBnkeUT+8pn8EAAD2Rk4ePCex/d/orz28s3nwFrn5sJ8E9NlyOX1aP3ylFnJgVxy+z03FmL7mYsODu4EEF798sp0cTXDCa8GWSj8gr8IFVYB8pefKU/ONhvF50PR70JgOkxYCMGWU+JPukwN7sLKchKFc2DJI72mW20lkNfEMgAA=",
+      "source": "1789142702021.jpg"
+    },
+    "professional/gallery-visit-blazer": {
+      "width": 800,
+      "height": 1067,
+      "widths": [
+        480,
+        800
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQBACdASoSABgAPu1irE4ppaSiKA1RMB2JZQC9WAmumWCwJd9vjIzkAAD4IhKab//CglLwmh6AVDitLeGYGjO1wKbpd4FE9FHtsI22UyUtlBNT6AO7ko0ORws+w5PsXgmAAA==",
+      "source": "1785101381873.jpg"
+    },
+    "professional/library-trust-fund": {
+      "width": 800,
+      "height": 1067,
+      "widths": [
+        480,
+        800
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRuQAAABXRUJQVlA4INgAAACQBQCdASoSABgAPu1qrVCppaQiqAqpMB2JbACdL9S4QAiE4noNGymr6R8Cg0n8atwFG1bAAAD+1ZxJITBjgaQLEfBI3rDHrtK/6LSeHg3tAtFMULhvOOmVxBelHSnWSa2c/ZMH2SFIb/ryBmfk9OTmXZ4lgKgmeGwPtc+WmqzLXeofEF2wk9f+2y00u9h+c/VksRM0UnnYr99Nl3g/15EjyDx+xm98DdPRC2N54oGKkYJSoKeE8mJZba5b/SteGizKQwLx8fD9OWod5PbwGOZtyYva7tx2UAA=",
+      "source": "1787945842468.jpg"
+    },
+    "community/farm-site-visit": {
+      "width": 1020,
+      "height": 765,
+      "widths": [
+        480,
+        960,
+        1020
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAABwBQCdASoYABIAPu1or1AppaQiqAqpMB2JZgCsKIHVABZyn6HLkfZHsTfSNWNE9EKmVtQAAP6asYiFRon03R4dJ/dBRuYUXwL4v3fZOBfDMvFLmGkr4e3xUtyGoCiMPffEefBxqlnn9G1gCubXYHxx7b6GJzps9bOKdmfHEBhJ8Y8eIY0E+vbuLcwjnUukv+h6VaiqGLfPE6BcWI0lYSiYSAATEAAA",
+      "source": "1755045222488.jpg"
+    },
+    "community/field-assessment": {
+      "width": 765,
+      "height": 1020,
+      "widths": [
+        480,
+        765
+      ],
+      "fallback": 765,
+      "lqip": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBQCdASoSABgAPu1oqk+ppiOiMBgIATAdiWIAnTMbMYAkz8f8B9VZf/yXPhbWn+JIAAD+3ntw5Da68KXjFiTqFIyYhSj4Mn4u60q6FzPp23yw0Tk4zyzEup9otTkpQzhJF3QCMIjReeDmMJkrPqCCtVEhFGzMDeU4VEYlprojpGAhz7xF8Xsjt0PplDIvUnUfiW0si8QBRx3siAA=",
+      "source": "1755045222814.jpg"
+    },
+    "community/dialogue-under-the-tree": {
+      "width": 1020,
+      "height": 765,
+      "widths": [
+        480,
+        960,
+        1020
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAABQBQCdASoYABIAPu1ur1KppiQiqAgBMB2JQBYj264Sz/je4CT8kZzTAi8cFTUx/hVKDwAA/i+uGisqNbyaQt56StNuXeyrBsEE5Zb0GUNlDzQ7aJb5MHauiIExL3BBJao1VOKDXbNWMe2qEZvrhrrIwSMUBl/9T6KC1BzZk+TQ1kiPL4mNGPGdxQzjbxDj0UMNZ0jSNSkzLqH2LarKuHuV+WrHp/LfBQ8QR2CPBuNX41gqPAHiHUGgFtEy/nshEwkT/CAtPo5OE+4ZvgIlgya+SAAAAA==",
+      "source": "1755083666138.jpg"
+    },
+    "community/community-leaders-meeting": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAACQBACdASoYABIAPu1qr1AppaSiqAqpMB2JagC2yBDl+iyrLyu+ZUKgmMyBHuAA/gtPB/UZWXhh+ZBo2p1RcKen+j2jzOQBYTLLvCmeiKgOIIUrxe6YOs8kj7sYu9+9ynhiSPVknQGsNaw2KCsR1Yqad4KZECPRDj5qJoL+wBj427RLK82wFMlD/fzW1giEzDlKoGZ8IvIkTgiJfgQBE7KjFWYak1fwpY8UtHS5/1euqG7eVpSEZ+vs8J5qeCAA",
+      "source": "1785081787754.jpg"
+    },
+    "community/youth-farmers-engagement": {
+      "width": 800,
+      "height": 1067,
+      "widths": [
+        480,
+        800
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4IOwAAACwBQCdASoSABgAPu1qrVCppaQiqAqpMB2JagCdIB2guwxXNQDUBUgmA00MWGbP26pEyoU7/eAA/raiNkTGmt1sYcAMS9RXMM+xwUseMLevL9rYRTZXSfA7+hgouNBSnfnTvk2Vn+v29y0oe2dp7IBDQydajsLtng3LsIwFgGAY07fVOj11gXDJVBQMZCeXOrS4zMRZJbAsEhmyJUyKvE9xYyPvYWikhKvPet9DDog+0RLYicj19TZM6ByCqyIootLxMrFgO7r4kO4QmVuLTs8h8dhRnD+ALzqePm1/cPUcpIEVFu7KfanglkAAAA==",
+      "source": "1785093318145.jpg"
+    },
+    "community/household-visit": {
+      "width": 1152,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1152
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAAAwBQCdASoSABgAPu1qrlCppaQiqAqpMB2JaACdMoABHGdSBbKJOp+WXGA2oSODSbKz0ADanJ6XdcnJzuLAq6yiO1o1kfz4LCSntkNOkDE3uqFRbFAYjxVeTXBRoqJRir+83t4Kr78lrdcbnQGodAqoLU4+/LrCgrzk9laAcJcRLR9O4Zzu3gVT+TS47AlSqbHEIORF3vIxQU50J6u4bzKZNEZGs8ubt75ESRDwgRvkDdH+9Ck2kF693LXXQIYXnms8eQAA",
+      "source": "1786998727557.jpg"
+    },
+    "community/household-visit-family": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAABwBQCdASoYABIAPu1kpU4ppaMiMBgMATAdiWYArDMv70AJy55kyaAVbNpwOMzsvL2oWEEAAP7ZSyW8C71MdearzltmcTvLV016LKNppb/+27UbiopwkymMGtJvyJmzkqO4a0Gs0b2afdUyOf8LivJCK1VQcLwQup6LTaveG38GkdFgQS4DcJu64VG0leAQMY187Anh4F+ah/2Y9+T9rNjM3Z53dnGQCgYAT+4A",
+      "source": "1786998735189.jpg"
+    },
+    "community/family-outreach": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4IM4AAABwBQCdASoYABIAPu1srFEppaQiqAqpMB2JZgC06BI5bQrddnPzsW4OqcQ7vHIyJKC7o3WQAP6YTPphboiOSZKIBGLnAHuatYOFotkRNyUUGyjkOyi7lY0jgUOxc9mmdfTb9mYzs6EDXp9MKrtexyr1irsosrt0K1sVi7LG0vXoPv6FJTdi4+5oY4MDJLGI4kOJaxZZHkFXIrix8EZ5Pi4vTGF8U8/fj33SUcPX2dtrCs88SeepGXhAMYapErLI8FGiYP8HbGmh9kXbQAAAAA==",
+      "source": "1786998736816.jpg"
+    },
+    "community/women-gathering": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBACdASoYABIAPu1sqlEppaOiqAqpMB2JYgC7O/7AU2ukKnxcSK/hE6SauKI4AAD+kZ+s6CuW78iZcW1z2N4QHyZ8QtZY/wsi3Sl9InyY4VjZ7nBfo8BylpgnVZk+Fst/ZYfGKkN9Ks4LN5JoSud1NH0D6iW1xEMJnozXP+X4L0m8p85/o6ROO/8TVXip2SqrmJWWcbRvZBz2kKyvrOZ11xTnJS+4op+lac0iYc5qV2xSp1CjVYuSlqihDOhhNL7op2LR60ANROAAAAA=",
+      "source": "1786999227844.jpg"
+    },
+    "community/town-hall-under-the-tree": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAAAwBgCdASoYABIAPu1sq1EppiOiqAqpMB2JZgCdMt1h1+qax8hiGp/7sTkrgT1S0t1TsTcwF5ydCp8AAPlfNXwmrEEflxGDZPm0bjKJHzw6Arsfcu8b10Cn1Q3Yszako8HE2XcZy/S7leo+esxNiL58eIWM7NEnj0oM2agwixiMjy1uxjR5svGVmlnJgGZb2cNXT/e0pt89g2CTEsTokZKGm5iiowauDMwFEE3yUafJZhRjoqVm9vEk8LxHnUX5M6/ETZhu2hLPS4rm6qq1L1ss4DEtCbSMJEnFoEdokXyBFxp+YxnSAAAA",
+      "source": "1787556346732.jpg"
+    },
+    "community/sensitisation-session": {
+      "width": 1152,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1152
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAAAwBQCdASoSABgAPu1qq1EppaOiqAqpMB2JYgC/OA3V5HkIH28w1dORUeEPD+csO2GFgAD6icvHucYvur+zbIfM1RDrPIpdVN3/u+Pp1Ylxh8c4fR2rwpCMsLasbdV26Y8bJY+An3OoJLEhCfsBhKQ3BJAFDn2MbrVXhjyiq/6O1q37TBNT1sbCkJrjNCl3zLz6Lgi81lFF00L5rCIqJUO7iLqIDXAMKZwlXVZ+bIsIc26/Yx53QVOx7ZaLOjFaRDW+V+vK4/YK6OwAAAA=",
+      "source": "1787556348040.jpg"
+    },
+    "community/women-circle": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4IMYAAACQBQCdASoYABIAPu1sq1EppaOiqAqpMB2JYgCdMuI200kU4pmrflJDLx5MTyfCvgxkktB2AAD8cjAYbncKF0UWokH5MoYWE4DIEJ/A9n/TRhs8MUprCXW7xbO40/Eq+lPiwG+OglycZGzcgp+0Y/PNA9+fcW/EorkopVL2fZ9Nq0PuesIQdv5szRUIzG/QwKjnV3SGS0sYh8gio58tAceaDcFCeEz6BT/XewKp4SRfk0dVK1OTOttQu/C+Jg9C8kLF/NbAAAA=",
+      "source": "1789028905623.jpg"
+    },
+    "community/agric-field-training": {
+      "width": 2048,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1440
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAADQBQCdASoYABIAPu1sq1EppaOiqAqpMB2JaACdMoM3ZBj8gALTjH+Q089rXTGziTuyv08LrI2AAP6wI6YlxeGnwYu9qPrFmKKu4YVMCmLYkCkbqLlWDT5mzj0zWAYM1s0K0x8EtOzjUtW7XcDNR1eXiVurhEYo6E2krYLsRcqD9v0aCACsIKTjC1ZGURZZUSZnBQmiDWM2fiAw6E1P+RRXRqpUUlDdTwCAr45nMJqa8GVgA3FeFoIw6shS77k/qff4gBKDeMDpWmVaAAA=",
+      "source": "1789331936168.jpg"
+    },
+    "community/women-outreach-registration": {
+      "width": 1152,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1152
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtwAAABXRUJQVlA4INAAAABwBQCdASoSABgAPu1srFEppaQiqAqpMB2JYgCxH4CBqt8L6JdYJiElF/1AQ8ZbI7h/TKb0AP7wFl/NIbIbCFLVzRKWmPJG48Vz8fKTgAl7hCmgy5QS7G6VLDcU0UM14UUixAjcok2asEv+PLIDoq/QP2+HWj7aiGIGwNINV77vyG7wsPM0eKG7OT/Vjv22mRe2ACwQAlGUP4HRgOHJzFHrgIS5FBS1uO9cara5NkZewX8SBdyN5bLVsyvrgpRxwzPvIkEvCl5eePDpYLjagAAA",
+      "source": "1790105604817.jpg"
+    },
+    "community/stakeholders-group": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAABQBQCdASoYABIAPu1gq1AppKOisBgIATAdiWQArDLiPMQgCsABdP1lUMwmnWH7xVStR9AA/pk6gVpDGluKMsMUEO86pZR9nGkkAKmhi9Is4+mzTBGKelHTozB+oyDQ0KnQ1hKDMDWpIDLMeEC74C/RKDzBmCi0YUNAs6KQlBEooNisH7wKbDVQW+iYSSjx3mS6+XhoxuHG54QHxt4cQP2QP5k1C1BeH3oJpvQZGhYawkunMZyTIjvBDg8OvNmbJHwC5GIkSWOoqnRoiKWRIxxt2mlxusQ85iJfgAAA",
+      "source": "1790982280430.jpg"
+    },
+    "community/clean-cooking-demonstration": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRsoAAABXRUJQVlA4IL4AAAAQBQCdASoYABIAPu1ur1IppiQiqAgBMB2JQBdgZdUUeFY/ahGAtLFPTTkIYpHz2ZPAAP5EN4S4g2k7+MyfcYlvRM1zstlDqhW18vsqOD92GwjZ7BVk/CP4lDPHDVWaqnvgLOahbbrjWub9Ck+eioyOk6mV+EDrQLro1e97DIV0Xsw1Hyxsg3bPp+/gKbZEtio19Qw4VtzuWjEe/QWZfHOZRZERvFpzDBhWYZ44qCzYfSsIJ0xAOoORgIIzNAAA",
+      "source": "1790982965198.jpg"
+    },
+    "community/phc-munape-women": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRvQAAABXRUJQVlA4IOgAAADwBQCdASoYABIAPu1qr1AppaSiqAqpMB2JaACxHzQ5adFUiFJd0FLvQOydse4aOsyHaHHdWgUvgAD9/FJKOdbT4gdDGKYhh+TfOFPK76TGeILgnBNKv8UFPBHGP19QSxQbl9omnFSJVy5kaz5WJbpIENwax5Xy/gqo8d/eGpVCl+dbBf/3ljVMYuRH2Fsjixdr4nJtw6VA5RtgHFTZSkw5v1KXiecQUgiG1/+CTNY5kwQZXnyYuK/iNnfszmTyMrtsIF17eFv+TfnyhGamkoDflRg/F9yWlYDFiDBiEglzP381fYAA5+AA",
+      "source": "cw1.jpeg"
+    },
+    "community/savings-group-meeting": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAAAQBgCdASoYABIAPu1sq1EppaOiqAqpMB2JZACdMuI3dYzDljDYMOtr/bavnHjKa+yyxfp38ll97AAA/okSWp7RZK7YiJy8pu/U5zVqu0F0vahDKWmJAOkpyh1mW7K6GAE8g81T5oGJlwKyKhiYaG0W0jnHVTF3S8+xmFNfadAvKIPYqAPDh2iPcCVF09txya6Wl0YtEswpWeRyN15lfh/c35iaj2XTFYBICotrLIaSSXeuoCUNLo60hKnIsPClMmbIU8K51LKqi4RVBiZAKYCZdga8fAH9qgAAAA==",
+      "source": "cw2.jpeg"
+    },
+    "community/savings-group-women": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAADQBQCdASoYABIAPu1qrVCppaQiqAqpMB2JZACsMy/BrDxn+Bx9W7/L4SvBnTba5ONOMkFVxAoAAP6ECvTaXpyfGnB8atP7oOfmDrwLgShsOBm6XCWMUk4Sq7a6UTRSOsZz8ocB0SfU6qcXEcEvfK5hZm5q06l37Zccp6gI3MwtC7PV3CEab2k+PEo3mYRP7Tm+f/OdY9Gxzx8wZERYbxqXWklN664TpWUP7YO5E3U8rbNy31n2CTBeKy1J3+QWXD0T5M0gvvTe7ZNBD5GokJV4AAA=",
+      "source": "cw3.jpeg"
+    },
+    "community/savings-group-session": {
+      "width": 960,
+      "height": 1280,
+      "widths": [
+        480,
+        960
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACQBQCdASoSABgAPu1srlKppaQiqAgBMB2JYgCdM2cz5CUI5jR7FAqO2JNKmez8+X5RA7f0gAD93RJLE1vg0KZtPqptj/mVHJnCEFU1kaO15j6dGWyn/0y6JOwBY+4+7dzQE3riVhlIrcQ/MfHQBZm/OpslocC7vCDH48lu/ufjzgn7xXyogHS9s7b+ePSICCnoRdkdO2QurHrahHefTmZ0FhNAjr40tHsvaAgTE4zIWH5pdB851+ZTo6BaYG9Dwt/ZAYAA",
+      "source": "cw4.jpeg"
+    },
+    "community/skills-acquisition-graduates": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRtAAAABXRUJQVlA4IMQAAACwBACdASoYABIAPu1srVEppiQiqAqpMB2JQlwASReoACL49kGihOSZ+y2PQBqAAM4848oceCC8d+1ByyrdtZ5pA6nH6PnZ0PtqR5mKoZHKuRl64DVCWKqUwvCdg2UD0d6+9l18lqSwHxtn57tBdP1aWvgi1Tf8o3VnuiLUwVoluBzva2v8WuyknQagjGToPU7GMEY0REJEgYm5929FMBW3uJvRWKPpMEsHxyodogJiN/NjZy2EpS9wQWbK6SSiK0EwQAAA",
+      "source": "cw5.jpeg"
+    },
+    "community/skills-training-hall": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAAAQBwCdASoYABIAPu1or1AppaSiqAqpMB2JbACdMoR/eBi8BhQH6AF6DfAqm0nMZPCa+oJt5RX4J68+2eyqOc9EAAD+mRA21HhcJuzgKcY05dra1J/FlL39sxyfnko7jZ1P9siKvczS+EITRHnQ3zgSoyPcJDW8MKgK7nK0rNOL4TpH2WhYy1INZ1q/Jr+9EurIUVP+vDB1Hp/tO9qz/np9EdLAzzvdZx2A+2kgaDCr1XdKb59aZDQPH9QweMgBp7RAQCLh047AwwZpwJM0DsJxBwwzX2YlrIrl4ftv+SSM0Ghr4CVXUsIXsZn264d43ljQVSMTsJCrVUAMJt8EZy2wiMuBA63jA4H50jiZVJ3zCAAA",
+      "source": "cw7.jpeg"
+    },
+    "advocacy/rwvl-safespace-therapy": {
+      "width": 480,
+      "height": 640,
+      "widths": [
+        480
+      ],
+      "fallback": 480,
+      "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAwBACdASoSABgAPu1or1CppaSiqAqpMB2JZACCLwQHCnbYfs/5DUBuawAA4Raep+CelscwCz1IU/WaqQZKeIrf1IcguVw7WmQkPQV00+TXsjgJjcHIHTVNokYe4McGi6F5B3yxQJ/+S3SN+M5N5eIIzp1c0AiiWw+ZZm/obSBMZeXAwqTegMvTm7jXAOWfEiUueaAA",
+      "source": "1788530705563.jpg"
+    },
+    "advocacy/gs26-gender-inclusion-summit": {
+      "width": 864,
+      "height": 1080,
+      "widths": [
+        480,
+        864
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4ILQAAADQBQCdASoTABgAPu1srFEppaQiqAqpMB2JYgCdMyYA7f/gHobrGcEdakgVXPYMCHlKsOWg6+gAAP7qgmCfT+UL0v3taUvZswANxdepeNDpUSxCFV8t6WMXBF9nrQSfPiC7LyZP6NOJv+4VG2qW8FJ6Q9eQMdL2lK2EdT76IAPZE8CIlg6tqgP6KjfGh7AZf3MpY4oslr3+MLvrwH94WmIOOXjiEIEUcC6qiTM5SYgDT18AAAA=",
+      "source": "1788836465979.jpg"
+    },
+    "advocacy/capacity-building-workshop": {
+      "width": 1280,
+      "height": 960,
+      "widths": [
+        480,
+        960,
+        1280
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4IPYAAACQBQCdASoYABIAPu1usFIppiSiqAgBMB2JagCsM4ClywwLXU6QcoU4H2w1Gs9VAge/l1lKwAD+3v7+JVDLfbfaiBmvYKeIIGYefXPZkG6ibxaPUegpco9bdDnuZwelFyTW3copPPp6L+RyojMWoDNSNvbjoyMhGohAv/asDI6u37x4FsufmfpdEoSSze4VcorpU0GCLg/o5unePYarXipayTkbJCaQE3SHva12Z3SKVevGKZoa4U5zeckl4YAjRu/mXXE+X1lhB0Cm/W+0mixZrVafGIUq3t6BgXc/cVWwlCOODz4vNiRIXu3wBE1kSyhYxbBwAAA=",
+      "source": "1791114935686.jpg"
+    },
+    "mentorship/vision-board-session": {
+      "width": 1170,
+      "height": 878,
+      "widths": [
+        480,
+        960,
+        1170
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRugAAABXRUJQVlA4INwAAAAwBgCdASoYABIAPu1qrFEppaQiqAqpMB2JbAC26SG6guyv9AAFOHAn6mobIFJH9yaTodoFh/bNodwAAP7taGR3BZHi8I5gGxzFcpGpDFYLCSPhPCs0FYAoH0zqyNMnV/makVTGDIxFP6buTMZ0SIRKQMlIAnCLQIzvFpBV5oo/k5YTgAhgXWe91tsy7HnJmzXmquKvim59q/l0VGbbR88u+5TN213FGMvfvEv6MUInTYw7dgqssfEAT3JP/bpOFDmnevOAknINPvdl/yPobZJvbcC1ss0WvHdh8TwA",
+      "source": "1785262675200.jpg"
+    },
+    "mentorship/ecwa-goodnews-keynote": {
+      "width": 1152,
+      "height": 1536,
+      "widths": [
+        480,
+        960,
+        1152
+      ],
+      "fallback": 800,
+      "lqip": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAACwBQCdASoSABgAPu1urlKppiQiqAgBMB2JYgC1G1hOBbaoBjnkUxhC3mNc/Guz7On+UvHesiAA4nzjknMpDgs8xXfOKfINk54gtU+f8sWlIHUtHtCYt69x75LsItIq5TAIk7Q+yfa+odxhAgdCFHE89XinRIkVLDrDX+yPhe6oDc1fCWWAx9NlcC+VeNl64qFhncupX66N+DCBCswJtqbEZ279E+6NiKLEkvMNJxhtNDG+bA1mbI9LsX1otSezwv7Mn21FN6btsCd7TjtFBu9leuMZikJz0wQAAA==",
+      "source": "1787556342232.jpg"
+    }
+  },
+  "videos": {
+    "brand-reel-studio": {
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "source": "n3.mp4"
+    },
+    "brand-reel-portrait": {
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "source": "n2.mp4"
+    },
+    "community-skills-production": {
+      "width": 356,
+      "height": 640,
+      "audio": true,
+      "source": "cw6.mp4"
+    }
+  }
+}

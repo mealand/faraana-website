@@ -1,0 +1,206 @@
+/* ==========================================================================
+   Base: reset, typography, accessibility helpers
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 1rem);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: 1.65;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img,
+video {
+  height: auto;
+}
+
+/* blur-up placeholder painted behind every responsive image */
+img.lqip {
+  background-size: cover;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 0.5em;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  font-variation-settings: 'opsz' 120;
+  text-wrap: balance;
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+}
+
+p {
+  margin: 0 0 1em;
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--c-gold-400);
+  color: var(--c-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--c-gold-500);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1000;
+  padding: 0.75rem 1.25rem;
+  background: var(--c-ink);
+  color: var(--c-white);
+  border-radius: var(--radius-pill);
+  transform: translateY(-160%);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- type scale utilities ---------- */
+.display-1 {
+  font-size: var(--fs-h1);
+  font-weight: 350;
+}
+
+.display-2 {
+  font-size: var(--fs-h2);
+  font-weight: 350;
+}
+
+.display-1 em,
+.display-2 em,
+.mega em {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--c-emerald-700);
+}
+
+.mega {
+  font-family: var(--font-display);
+  font-size: var(--fs-mega);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.lead {
+  font-size: var(--fs-lg);
+  line-height: 1.6;
+  color: var(--c-text-muted);
+  max-width: 62ch;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--c-emerald-700);
+}
+
+.eyebrow::before {
+  content: '';
+  width: 2.25rem;
+  height: 1px;
+  background: currentColor;
+}
+
+.eyebrow--light {
+  color: var(--c-gold-400);
+}
+
+.text-gold {
+  color: var(--c-gold-500);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

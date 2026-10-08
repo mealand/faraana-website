@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-NG" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="author" content="Fara’a Nana Gaji">
+  <meta name="theme-color" content="#0a3d32">
+  <link rel="canonical" href="{{canonical}}">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Fara’a Nana Gaji">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_NG">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{title}}">
+  <meta name="twitter:description" content="{{description}}">
+  <meta name="twitter:image" content="{{ogImage}}">
+
+  <link rel="icon" href="{{base}}assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{base}}assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="{{base}}site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="{{base}}assets/css/main.min.css?v={{version}}">
+
+  <script>
+    // Enable motion styles; if the JS bundle never boots (old browser, blocked script),
+    // drop back to the fully visible no-js presentation after a short grace period.
+    document.documentElement.classList.replace('no-js', 'js');
+    setTimeout(function () { if (!window.__fngReady) document.documentElement.classList.replace('js', 'no-js'); }, 4000);
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Fara’a Nana Gaji",
+    "url": "https://faraananagaji.com/",
+    "image": "https://faraananagaji.com/assets/images/social/og-card.jpg",
+    "jobTitle": "Humanitarian, Community Development Practitioner, Psychologist & Entrepreneur",
+    "homeLocation": { "@type": "Place", "name": "Abuja, Nigeria" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Jos" },
+      { "@type": "CollegeOrUniversity", "name": "National Open University of Nigeria" }
+    ],
+    "knowsLanguage": ["English", "Hausa", "Nigerian Pidgin"],
+    "sameAs": [
+      "https://www.linkedin.com/in/fara%E2%80%99a-nana-gaji-94b1b08a/",
+      "https://web.facebook.com/faraanana",
+      "https://www.instagram.com/nana_faraa",
+      "https://www.instagram.com/faranaempire/"
+    ]
+  }
+  </script>
+</head>
+<body class="{{bodyClass}}">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <svg class="preloader__mark" viewBox="0 0 120 120" width="96" height="96">
+        <circle class="preloader__ring" cx="60" cy="60" r="54" />
+        <text x="60" y="72" text-anchor="middle">FNG</text>
+      </svg>
+      <span class="preloader__name">Fara’a Nana Gaji</span>
+    </div>
+  </div>
+  <div class="page-curtain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+  <x-include name="header" />
+
+  <main id="main">
+{{content}}
+  </main>
+
+  <x-include name="footer" />
+
+  <button class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 48 48" aria-hidden="true"><circle class="to-top__track" cx="24" cy="24" r="22"/><circle class="to-top__ring" cx="24" cy="24" r="22"/><path d="M24 31V17m-6 6 6-6 6 6"/></svg>
+  </button>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer" hidden>
+    <button class="lightbox__close" type="button" aria-label="Close viewer">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous">&#8592;</button>
+    <figure class="lightbox__stage"><div class="lightbox__media"></div><figcaption class="lightbox__caption"></figcaption></figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next">&#8594;</button>
+    <span class="lightbox__count" aria-live="polite"></span>
+  </div>
+
+  <script type="module" src="{{base}}assets/js/main.js?v={{version}}"></script>
+</body>
+</html>
